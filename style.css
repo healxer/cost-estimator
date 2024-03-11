@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 233, 255);
+    font-family: "Open Sans", sans-serif;
+    color: rgb(44, 44, 44);
+}
+
+.estimate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.estimate__title {
+    color: rgb(83, 49, 156);
+}
+
+.estimate__container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 900px;
+}
